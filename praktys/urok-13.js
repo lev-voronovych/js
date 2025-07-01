@@ -48,11 +48,3 @@ const account = {
   }
 };
   
-account.deposit(1000);
-account.deposit(500);
-account.withdraw(200);
-account.withdraw(2000);
-account.getBalance();
-account.getTransactionDetails(2);
-account.getTransactionTotal(Transaction.DEPOSIT);
-account.getTransactionTotal(Transaction.WITHDRAW);
